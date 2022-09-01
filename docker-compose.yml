@@ -22,7 +22,7 @@ services:
     environment:
       MYSQL_DATABASE: 'database'
       MYSQL_USER: 'root2'
-      MYSQL_PASSWORD: 'root2'
-      MYSQL_ROOT_PASSWORD: '12345'
+      MYSQL_PASSWORD: 'root'
+      MYSQL_ROOT_PASSWORD: 'root'
 volumes:
   mysql:
