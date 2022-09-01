@@ -3,7 +3,7 @@
 $pdo = null;
 
 try {
-    $pdo = new PDO('mysql:host=mysql;dbname=database', 'root2', '12345');
+    $pdo = new PDO('mysql:host=mysql;dbname=database', 'root2', 'root2');
 } catch (PDOException $e) {
     print_r('Entrou no catch');
     echo '<pre></pre>';
